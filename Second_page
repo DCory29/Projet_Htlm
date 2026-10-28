@@ -1,0 +1,36 @@
+#Characters
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personnages – The Help | Mémoire</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>The Help – La Couleur des sentiments</h1><p>Mémoire de Master – Prénom Nom – Université de Bretagne Occidentale</p></header>
+<nav><ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="contexte.html">Contexte</a></li>
+<li><a href="personnages.html" class="actif">Personnages</a></li>
+<li><a href="themes.html">Thèmes</a></li>
+<li><a href="reception.html">Réception</a></li>
+<li><a href="bibliographie.html">Bibliographie</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul></nav>
+<main>
+<section>
+<h2>Trois voix narratives</h2>
+<img src="images/voix.svg" alt="Les trois narratrices : Aibileen, Minny et Skeeter">
+<table>
+<tr><th>Personnage</th><th>Rôle</th><th>Pistes d’analyse</th></tr>
+<tr><td>Aibileen Clark</td><td>Domestique noire, élève les enfants de ses employeurs</td><td>Maternage, deuil, prise de parole</td></tr>
+<tr><td>Minny Jackson</td><td>Domestique noire, franc-parler</td><td>Résistance, humour, violence domestique</td></tr>
+<tr><td>Eugenia « Skeeter » Phelan</td><td>Jeune femme blanche, aspirante écrivaine</td><td>Position de la narratrice blanche, « sauveur blanc »</td></tr>
+<tr><td>Hilly Holbrook</td><td>Antagoniste, figure de la ségrégation</td><td>Pouvoir social, hygiène et racisme</td></tr>
+</table>
+</section>
+</main>
+<footer>© 2026 Prénom Nom – Site réalisé en HTML/CSS</footer>
+</body>
+</html>
