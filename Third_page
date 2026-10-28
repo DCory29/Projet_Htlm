@@ -1,36 +1,61 @@
-##Themes
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thèmes – The Help | Mémoire</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thèmes – The Help | Mémoire</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><h1>The Help – La Couleur des sentiments</h1><p>Mémoire de Master – Prénom Nom – Université de Bretagne Occidentale</p></header>
-<nav><ul>
-<li><a href="index.html">Accueil</a></li>
-<li><a href="contexte.html">Contexte</a></li>
-<li><a href="personnages.html">Personnages</a></li>
-<li><a href="themes.html" class="actif">Thèmes</a></li>
-<li><a href="reception.html">Réception</a></li>
-<li><a href="bibliographie.html">Bibliographie</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul></nav>
-<main>
-<section>
-<h2>Axes d’analyse</h2>
-<h3>1. Race et ségrégation</h3>
-<p>Comment les lois et les usages du quotidien (toilettes séparées, hiérarchie dans la maison) sont-ils représentés ?</p>
-<h3>2. Genre et maternité</h3>
-<p>Les rapports entre mères blanches, enfants et domestiques noires.</p>
-<h3>3. Classe sociale</h3>
-<p>Le travail domestique, la dépendance économique et la peur des représailles.</p>
-<h3>4. Parole, écriture et témoignage</h3>
-<p>Qui a le droit de raconter l’histoire d’autrui ? Le choix de la voix narrative (dialecte, narration à la première personne) pose question.</p>
-</section>
-</main>
-<footer>© 2026 Prénom Nom – Site réalisé en HTML/CSS</footer>
+
+    <!-- Menu de navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Help</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="first-page.html">Contexte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="second-page.html">Personnages</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="third-page.html">Thèmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fourth-page.html">Réception</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fifth-page.html">Bibliographie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu de la page -->
+    <main class="container">
+        <article class="article">
+            <h1>Thèmes</h1>
+            <p class="meta">Chapitre 3 – Mémoire de Master, UBO</p>
+            <h2>Axes d’analyse</h2>
+            <h3>1. Race et ségrégation</h3>
+            <p>Comment les lois et les usages du quotidien (toilettes séparées, hiérarchie dans la maison) sont-ils représentés ?</p>
+            <h3>2. Genre et maternité</h3>
+            <p>Les rapports entre mères blanches, enfants et domestiques noires.</p>
+            <h3>3. Classe sociale</h3>
+            <p>Le travail domestique, la dépendance économique et la peur des représailles.</p>
+            <h3>4. Parole, écriture et témoignage</h3>
+            <p>Qui a le droit de raconter l’histoire d’autrui ? Le choix de la voix narrative (dialecte, narration à la première personne) pose question.</p>
+        </article>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            © 2026 Prénom Nom – <a href="fifth-page.html">Bibliographie</a> – <a href="contact.html">Contact</a><br>
+            Mise en page inspirée de <a href="https://www.wowthemes.net" target="_blank" rel="noopener">Mediumish (WowThemes.net)</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
